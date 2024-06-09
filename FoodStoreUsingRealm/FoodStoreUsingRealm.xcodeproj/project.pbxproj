@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		206B80AD2BE9FE3B0004DC61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B80AC2BE9FE3B0004DC61 /* AppDelegate.swift */; };
 		206B80AF2BE9FE3B0004DC61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B80AE2BE9FE3B0004DC61 /* SceneDelegate.swift */; };
-		206B80B12BE9FE3B0004DC61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B80B02BE9FE3B0004DC61 /* ViewController.swift */; };
 		206B80B42BE9FE3B0004DC61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206B80B22BE9FE3B0004DC61 /* Main.storyboard */; };
 		206B80B62BE9FE3D0004DC61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206B80B52BE9FE3D0004DC61 /* Assets.xcassets */; };
 		206B80B92BE9FE3D0004DC61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206B80B72BE9FE3D0004DC61 /* LaunchScreen.storyboard */; };
+		20A239AD2C03295500EFA235 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A239AC2C03295500EFA235 /* RealmManager.swift */; };
+		20A239AF2C03297900EFA235 /* ItemDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A239AE2C03297900EFA235 /* ItemDetailModel.swift */; };
+		20A239B22C0329B700EFA235 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A239B12C0329B700EFA235 /* HomeVC.swift */; };
+		20A239B42C0329CA00EFA235 /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A239B32C0329CA00EFA235 /* FavouriteVC.swift */; };
+		20A239B62C0329DF00EFA235 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A239B52C0329DF00EFA235 /* CartVC.swift */; };
+		20A239BB2C032A1A00EFA235 /* CartTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A239B92C032A1A00EFA235 /* CartTableCell.swift */; };
+		20A239BC2C032A1A00EFA235 /* CartTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A239BA2C032A1A00EFA235 /* CartTableCell.xib */; };
+		20A239BF2C032A3700EFA235 /* ItemsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A239BD2C032A3700EFA235 /* ItemsCollectionCell.swift */; };
+		20A239C02C032A3700EFA235 /* ItemsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A239BE2C032A3700EFA235 /* ItemsCollectionCell.xib */; };
+		D50F6C8068FF9CBFB6F7E69F /* Pods_FoodStoreUsingRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93626178FD0C0F41B21E34B8 /* Pods_FoodStoreUsingRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		206B80A92BE9FE3B0004DC61 /* FoodStoreUsingRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodStoreUsingRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206B80AC2BE9FE3B0004DC61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		206B80AE2BE9FE3B0004DC61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		206B80B02BE9FE3B0004DC61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		206B80B32BE9FE3B0004DC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		206B80B52BE9FE3D0004DC61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206B80B82BE9FE3D0004DC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		206B80BA2BE9FE3D0004DC61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A239AC2C03295500EFA235 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		20A239AE2C03297900EFA235 /* ItemDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailModel.swift; sourceTree = "<group>"; };
+		20A239B12C0329B700EFA235 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		20A239B32C0329CA00EFA235 /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		20A239B52C0329DF00EFA235 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		20A239B92C032A1A00EFA235 /* CartTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableCell.swift; sourceTree = "<group>"; };
+		20A239BA2C032A1A00EFA235 /* CartTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableCell.xib; sourceTree = "<group>"; };
+		20A239BD2C032A3700EFA235 /* ItemsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionCell.swift; sourceTree = "<group>"; };
+		20A239BE2C032A3700EFA235 /* ItemsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsCollectionCell.xib; sourceTree = "<group>"; };
+		93626178FD0C0F41B21E34B8 /* Pods_FoodStoreUsingRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodStoreUsingRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD06EB8064D4AB454EDCFEF0 /* Pods-FoodStoreUsingRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStoreUsingRealm.release.xcconfig"; path = "Target Support Files/Pods-FoodStoreUsingRealm/Pods-FoodStoreUsingRealm.release.xcconfig"; sourceTree = "<group>"; };
+		F5B8893DF4D957A25A0A5362 /* Pods-FoodStoreUsingRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStoreUsingRealm.debug.xcconfig"; path = "Target Support Files/Pods-FoodStoreUsingRealm/Pods-FoodStoreUsingRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50F6C8068FF9CBFB6F7E69F /* Pods_FoodStoreUsingRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				206B80AB2BE9FE3B0004DC61 /* FoodStoreUsingRealm */,
 				206B80AA2BE9FE3B0004DC61 /* Products */,
+				A25B43EF2E1D95150DCACF9D /* Pods */,
+				8F6480459E48FE7C4D5DBE6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,80 @@
 		206B80AB2BE9FE3B0004DC61 /* FoodStoreUsingRealm */ = {
 			isa = PBXGroup;
 			children = (
-				206B80AC2BE9FE3B0004DC61 /* AppDelegate.swift */,
-				206B80AE2BE9FE3B0004DC61 /* SceneDelegate.swift */,
-				206B80B02BE9FE3B0004DC61 /* ViewController.swift */,
+				20A239C12C032A4B00EFA235 /* MainFile */,
+				20A239B02C03298800EFA235 /* ViewController */,
+				20A239AB2C03293300EFA235 /* Realm Database */,
 				206B80B22BE9FE3B0004DC61 /* Main.storyboard */,
 				206B80B52BE9FE3D0004DC61 /* Assets.xcassets */,
 				206B80B72BE9FE3D0004DC61 /* LaunchScreen.storyboard */,
 				206B80BA2BE9FE3D0004DC61 /* Info.plist */,
 			);
 			path = FoodStoreUsingRealm;
+			sourceTree = "<group>";
+		};
+		20A239AB2C03293300EFA235 /* Realm Database */ = {
+			isa = PBXGroup;
+			children = (
+				20A239AC2C03295500EFA235 /* RealmManager.swift */,
+				20A239AE2C03297900EFA235 /* ItemDetailModel.swift */,
+			);
+			path = "Realm Database";
+			sourceTree = "<group>";
+		};
+		20A239B02C03298800EFA235 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20A239B12C0329B700EFA235 /* HomeVC.swift */,
+				20A239B32C0329CA00EFA235 /* FavouriteVC.swift */,
+				20A239B52C0329DF00EFA235 /* CartVC.swift */,
+				20A239B72C0329E800EFA235 /* TableCell */,
+				20A239B82C0329F800EFA235 /* CollectionCell */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20A239B72C0329E800EFA235 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				20A239B92C032A1A00EFA235 /* CartTableCell.swift */,
+				20A239BA2C032A1A00EFA235 /* CartTableCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		20A239B82C0329F800EFA235 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				20A239BD2C032A3700EFA235 /* ItemsCollectionCell.swift */,
+				20A239BE2C032A3700EFA235 /* ItemsCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		20A239C12C032A4B00EFA235 /* MainFile */ = {
+			isa = PBXGroup;
+			children = (
+				206B80AC2BE9FE3B0004DC61 /* AppDelegate.swift */,
+				206B80AE2BE9FE3B0004DC61 /* SceneDelegate.swift */,
+			);
+			path = MainFile;
+			sourceTree = "<group>";
+		};
+		8F6480459E48FE7C4D5DBE6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93626178FD0C0F41B21E34B8 /* Pods_FoodStoreUsingRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A25B43EF2E1D95150DCACF9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5B8893DF4D957A25A0A5362 /* Pods-FoodStoreUsingRealm.debug.xcconfig */,
+				DD06EB8064D4AB454EDCFEF0 /* Pods-FoodStoreUsingRealm.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206B80BD2BE9FE3D0004DC61 /* Build configuration list for PBXNativeTarget "FoodStoreUsingRealm" */;
 			buildPhases = (
+				647BF1912F20506C07534CE8 /* [CP] Check Pods Manifest.lock */,
 				206B80A52BE9FE3B0004DC61 /* Sources */,
 				206B80A62BE9FE3B0004DC61 /* Frameworks */,
 				206B80A72BE9FE3B0004DC61 /* Resources */,
+				DC47284C7D4626A7EA279BF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +215,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A239BC2C032A1A00EFA235 /* CartTableCell.xib in Resources */,
 				206B80B92BE9FE3D0004DC61 /* LaunchScreen.storyboard in Resources */,
 				206B80B62BE9FE3D0004DC61 /* Assets.xcassets in Resources */,
+				20A239C02C032A3700EFA235 /* ItemsCollectionCell.xib in Resources */,
 				206B80B42BE9FE3B0004DC61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		647BF1912F20506C07534CE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodStoreUsingRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC47284C7D4626A7EA279BF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodStoreUsingRealm/Pods-FoodStoreUsingRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodStoreUsingRealm/Pods-FoodStoreUsingRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodStoreUsingRealm/Pods-FoodStoreUsingRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		206B80A52BE9FE3B0004DC61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206B80B12BE9FE3B0004DC61 /* ViewController.swift in Sources */,
+				20A239BF2C032A3700EFA235 /* ItemsCollectionCell.swift in Sources */,
+				20A239AF2C03297900EFA235 /* ItemDetailModel.swift in Sources */,
+				20A239BB2C032A1A00EFA235 /* CartTableCell.swift in Sources */,
+				20A239B62C0329DF00EFA235 /* CartVC.swift in Sources */,
+				20A239AD2C03295500EFA235 /* RealmManager.swift in Sources */,
+				20A239B42C0329CA00EFA235 /* FavouriteVC.swift in Sources */,
+				20A239B22C0329B700EFA235 /* HomeVC.swift in Sources */,
 				206B80AD2BE9FE3B0004DC61 /* AppDelegate.swift in Sources */,
 				206B80AF2BE9FE3B0004DC61 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,12 +427,14 @@
 		};
 		206B80BE2BE9FE3D0004DC61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B8893DF4D957A25A0A5362 /* Pods-FoodStoreUsingRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8232QG2D25;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodStoreUsingRealm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +442,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +458,14 @@
 		};
 		206B80BF2BE9FE3D0004DC61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD06EB8064D4AB454EDCFEF0 /* Pods-FoodStoreUsingRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8232QG2D25;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodStoreUsingRealm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +473,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

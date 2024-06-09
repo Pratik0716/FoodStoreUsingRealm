@@ -1,0 +1,6 @@
+framework module Pods_FoodStoreUsingRealm {
+  umbrella header "Pods-FoodStoreUsingRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}
